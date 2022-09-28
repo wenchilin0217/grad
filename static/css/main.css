@@ -192,15 +192,14 @@ p{
 .resume .base .profile .info .name {
   margin-top: 10px;
   margin-bottom: 0;
-  font-size: 1.75em;
-  text-transform: lowercase;
+  font-size: 1.5em;
   color: #1a237e;
 }
 
 .resume .base .profile .info .job {
   margin-top: 10px;
   margin-bottom: 0;
-  font-size: 1.5em;
+  font-size: 0.8em;
   color: #283593;
 }
 
@@ -438,7 +437,7 @@ p{
 
 #container { text-align: center; margin: 20px; }
 h2 { color: #CCC; }
-a { text-decoration: none; color: #EC5C93; }
+a { text-decoration: none; color: #CCC; }
 
 .bar-main-container {
   margin: 10px auto;
@@ -527,7 +526,7 @@ a { text-decoration: none; color: #EC5C93; }
 .resume .func .skills-prog ul li .skills-bar {
   background: #ffffff;
   height: 8px;
-  width: calc(100% - 120px);
+  width: 75%;
   position: relative;
   border-radius: 2px;
 }
@@ -588,7 +587,6 @@ a { text-decoration: none; color: #EC5C93; }
 
 .resume .func .skills-soft ul li span,
 .resume .func .skills-soft ul li small {
-  position: absolute;
   display: block;
   width: 100%;
   top: 52%;
@@ -597,6 +595,7 @@ a { text-decoration: none; color: #EC5C93; }
 
 .resume .func .skills-soft ul li span {
   top: 40%;
+  font-size: 0.5em;
 }
 
 .resume .func .interests {
@@ -644,6 +643,7 @@ a { text-decoration: none; color: #EC5C93; }
 
 .resume .func .interests-items div span {
   display: block;
+  font-size: 0.5em;
 }
 
 
@@ -660,9 +660,10 @@ h1 {
 
 .nav {
   margin: 20px auto;
-  width: 80vw;
+  width: 75%;
   min-height: auto;
-  background-color: #283593
+  background-color: #283593;
+  padding-top: 20px
 }
 
 .nav ul {
@@ -672,7 +673,7 @@ h1 {
 
 .nav li {
   position: relative;
-  padding: 20px 3px 0 3px; 
+  padding: 40px 15px 15px 13px; 
   float: left; 
   
   text-align: center;
@@ -772,11 +773,10 @@ h1 {
   margin: 15px 0;
 }
 .timeline .time .content {
-  background: #fff;
-  border: 3px solid #ccc;
+  background: #283593;
+  border: 3px solid #ffb300;
   padding: 3px 10px;
   font-size: 1.2rem;
-  color: #ccc;
   width: auto;
   display: inline-block;
   text-align: center;
@@ -784,22 +784,23 @@ h1 {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   z-index: 2;
-  color: #ccc;
+  color: #FFF;
 }
 .timeline .time:first-child {
-  margin-top: 0;
+  margin-top: 20px;
 }
 .timeline .time:last-child {
   margin-bottom: 0;
 }
 .timeline .branch {
-  background: #fff;
+  background: #283593;
   position: relative;
-  border: 1px solid #ccc;
+  border: 2px solid #FFB300;
   padding: 10px;
   width: 275px;
   float: left;
   margin: 15px 23px 15px 0;
+  border-radius: 10px;
 }
 .timeline .branch:after {
   content: '';
@@ -818,6 +819,15 @@ h1 {
   font-size: 14px;
   position: relative;
 }
+.timeline .branch .content a {
+  font-size: 2em;
+  color: #FFB300
+}
+.timeline .branch .content p {
+  font-size: 1.5em;
+  color: #FFF
+}
+
 .timeline .branch .content:after, .timeline .branch .content:before {
   content: '';
   border: 10px solid transparent;
