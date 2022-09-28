@@ -1,3 +1,18 @@
+$(window).scroll(
+  {
+    previousTop: 0
+  },
+  function(){
+    var currentTop = $(window).scrollTop();
+    if (currentTop < this.previousTop){
+      $(".header").show();
+    } else {
+      $(".header").hide();
+    }
+    this.previousTop = currentTop;
+  }
+);
+
 (function() {
     $(".skills-prog li")
       .find(".skills-bar")

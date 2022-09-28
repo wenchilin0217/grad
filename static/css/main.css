@@ -9,13 +9,14 @@
 }
 
 .header__bg {
-    padding: 30px;
+    padding: 15px;
 }
 
 .header__logo a {
     display: block;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2rem;
+    padding-left: 25px;
     color: #fff;
 }
 
@@ -40,7 +41,7 @@
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #fff;
 }
 
@@ -595,10 +596,10 @@ h1 {
 }
 
 .nav {
-  background-color: #0c9a9a;
   margin: 20px auto;
   width: 80vw;
   min-height: auto;
+  background-color: #283593
 }
 
 .nav ul {
@@ -613,6 +614,8 @@ h1 {
   
   text-align: center;
   list-style-type: none; 
+  background-color: #283593;
+  box-shadow: 10px 10px #0e1442
 }
 
 .nav li::before, .nav li::after{
@@ -667,7 +670,7 @@ h1 {
   
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #FFB300;
   font-family: arial, verdana, tahoma;
   font-size: 1.2rem;
 }
@@ -689,8 +692,9 @@ h1 {
 
 /*Project*/
 .timeline {
+  margin-top: 200px;
   list-style: none;
-  width: 640px;
+  width: 70%;
   margin: 10px auto;
   position: relative;
   padding: 0;
@@ -723,9 +727,9 @@ h1 {
   background: #fff;
   border: 3px solid #ccc;
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #ccc;
-  width: 50px;
+  width: auto;
   display: inline-block;
   text-align: center;
   -moz-border-radius: 20px;
