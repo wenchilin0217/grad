@@ -1,3 +1,4 @@
+/*Header*/
 .header {
     position: fixed;
     width: 100%;
@@ -65,6 +66,7 @@
     width: 100%;
 }
 
+/*About me*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 * {
   outline: none;
@@ -85,7 +87,7 @@ body {
   background: #ffffff;
   cursor: default;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 a {
@@ -102,16 +104,16 @@ ul {
 
 h3 {
   color: #ffb300;
-  margin: 10px 0;
+  margin: 1px 0;
   text-transform: lowercase;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 .resume {
-  width: 960px;
+  width: 75%;
   background: #1a237e;
   color: #ffffff;
-  margin: 20px auto;
+  margin: 200px auto;
   box-shadow: 10px 10px #0e1442;
   position: relative;
   display: flex;
@@ -195,7 +197,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.5em;
-  text-transform: lowercase;
   color: #283593;
 }
 
@@ -580,6 +581,8 @@ h3 {
   display: block;
 }
 
+
+/*Course*/
 *,
 *:before,
 *:after {
@@ -712,6 +715,8 @@ h1 {
   border-color: #94a0b4;
 }
 
+
+/*Project*/
 @import url("https://fonts.googleapis.com/css?family=Arvo");
 body,
 html {
